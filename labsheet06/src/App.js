@@ -15,29 +15,29 @@ function App() {
       <p>This is my first react application</p>
       <Greeting />
       <div>
-        <h2>Activity 1 </h2>
+        <h4>Activity 1 </h4>
         <Counter />
       </div>
       <div>
-        <h2>Activity 2 </h2>
+        <h4>Activity 2 </h4>
         <Toggle />
       </div>
       <div>
-        <h2>Activity 3 </h2>
+        <h4>Activity 3 </h4>
         <Timer />
       </div>
       <div>
-        <h2>Activity 4</h2>
+        <h4>Activity 4</h4>
         <h3> Todo List </h3>
         <Todolist />
       </div>
       <div>
-        <h2>Activity 5</h2>
+        <h4>Activity 5</h4>
         <h3>Cards </h3>
         <CardList />
       </div>
       <div>
-        <h2>Activity 6</h2>
+        <h4>Activity 6</h4>
         <h3>Enter a input</h3>
         <Form />
       </div>
