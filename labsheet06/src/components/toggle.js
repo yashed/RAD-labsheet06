@@ -12,7 +12,7 @@ function Toggle() {
   };
   return (
     <div>
-      <h2> State : {state}</h2>
+      <h2>State : {state}</h2>
       <button onClick={changeState}>Change State</button>
     </div>
   );

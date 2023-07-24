@@ -11,14 +11,17 @@ function Timmer() {
       }
       setTime((seconds) => seconds + 1);
     }, 1000);
+
+    return () => clearInterval(interval);
   }, [stop]);
 
   const timeStop = () => {
+    // console.log(stop);
     setStop(1);
   };
   return (
     <div>
-      <h2> Seconds = {seconds}</h2>
+      <h2>Seconds = {seconds}</h2>
       <button onClick={timeStop}>Stop Timer</button>
     </div>
   );
